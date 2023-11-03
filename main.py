@@ -60,6 +60,7 @@ def saving_password():
 
 
 def searching_data():
+    """Searches and displays the data related to the website enetered by user."""
     website = website_entry.get()
     try:
         with open('passwords.json', 'r') as data_file:
